@@ -14,9 +14,7 @@ import "github.com/alaingilbert/ogame"
 var quit chan int = make(chan int)
 var reserverslot int64
 var logger log.Logger
-var stoptime1 = 21
-var stoptime2 = 22
-var esp_probes_for_scans int64 = 17
+var stoptimeExpedition = 21
 
 func main() {
 	var c conf
