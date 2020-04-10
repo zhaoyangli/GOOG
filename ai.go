@@ -43,7 +43,7 @@ func ai(bot *ogame.OGame, log log.Logger) {
 			misscry := -(cry - deu + 3)
 			missenergy := -(energy - deu - 5)
 			buildID := ogame.DeuteriumSynthesizerID
-			if energy == 16 {
+			if energy == maxenergy {
 				missenergy = 0
 			}
 			if missenergy > 0 && energy < maxenergy {
