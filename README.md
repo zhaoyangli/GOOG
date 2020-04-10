@@ -13,7 +13,7 @@ Fill in conf.yaml first, teletoken and teleid is for telegram your bot
 
 Change logic of scripts yourself
 
-Autofarmer and other feature is not hard to implement, logic is basically here:[url](https://github.com/ogame-ninja/scripts/blob/master/community/cremefresh55/OptimalFarmerNoTimer.go)
+Autofarmer and other feature are not hard to implement, logic is basically here:[url](https://github.com/ogame-ninja/scripts/blob/master/community/cremefresh55/OptimalFarmerNoTimer.go)
 
 I started learning GO and making this script at the same time, so be nice to a new comer
 

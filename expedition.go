@@ -37,7 +37,7 @@ func sendExpedition(bot *ogame.OGame, coord ogame.Coordinate, log log.Logger) {
 			}
 			//checkTime()
 			//return
-			if time.Now().Hour() >= stoptime1 {
+			if time.Now().Hour() >= stoptimeExpedition {
 				log.Println("time to stop exp: ", time.Now())
 				return
 			}
